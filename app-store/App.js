@@ -105,7 +105,6 @@ export default function App() {
               <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                 {
                   categories.map((cat) => {
-
                     if (cat === activeCategory) {
                       return <GradientButton key={cat} containerClass="mr-2" value={cat} />
                     } else {
@@ -119,7 +118,6 @@ export default function App() {
                     }
                   })
                 }
-
               </ScrollView>
             </View>
           </View>
